@@ -1,0 +1,33 @@
+[
+    {
+        "image": "",
+        "name": "Ranga Store",
+        "start": "Aug 2021",
+        "end": "Aug 2021",
+        "details": "Organizing the various products with title, price, rating and add to cart.The calculation of total price of product selected by the user.Delivery charges are also Added when the user adds to cart a product.",
+        "technology": "Javascript,Html,CSS,Bootstrap,Netlify.",
+        "live": "https://ranga-store-fix-marjanamahii.netlify.app/",
+        "github": "https://github.com/marjanamahii/ranga-store"
+    },
+    {
+        "image": "",
+        "name": "Book Archive",
+        "start": "Sep 2021",
+        "end": "Sep 2021",
+        "details": "Implemented the book list of searching by user.The total calculation of the book list has beenimplemented by searching the results.Implemented the spinner by searching books",
+        "technology": "Javascript,Html,CSS,Bootstrap,Netlify.",
+        "live": "https://book-archive-marjanamahii.netlify.app/",
+        "github": "https://github.com/marjanamahii/book-archive"
+    },
+    {
+        "image": "",
+        "name": "Lady Bug Jewellery",
+        "start": "Nov 2021",
+        "end": "Nov 2021",
+        "details": "MERN stack web app and an implementation of admin management page.Implemented two authentication systems like email-password and google sign-in.Registration system for new user.Implement user dashboard and review system.",
+        "technology": "React,Axios,material-ui, react-dom,react-hook-form,react-router-dom,firebase.",
+        "live": "https://lady-bug-jewellery-website.web.app/",
+        "github": "https://github.com/marjanamahii/niche-website-client-side",
+        "server": "https://github.com/marjanamahii/niche-website-server-side"
+    }
+]
