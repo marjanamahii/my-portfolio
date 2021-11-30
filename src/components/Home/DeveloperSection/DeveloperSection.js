@@ -35,7 +35,7 @@ const DeveloperSection = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 my-2">
                     <div>
                         <img className="rounded-circle img-fluid" src={marjanaImg} alt="" />
                     </div>

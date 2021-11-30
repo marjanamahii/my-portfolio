@@ -38,13 +38,11 @@ const Projects = () => {
                         <Bounce bottom cascade>
                             <h4 className="text-uppercase fw-bold pb-3 text-center">My Projects</h4>
                         </Bounce>
-
                         <Fade bottom>
                             {
                                 projects.map(project => <SingleProject p={project}></SingleProject>)
                             }
                         </Fade>
-
                         <div className="text-center pb-5">
                             <Link to="/projects">
                                 <button className="btn btn-primary">
