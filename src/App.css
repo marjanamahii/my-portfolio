@@ -151,13 +151,3 @@ body{
   color: white;
   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
 }
-
-.btn-twitter{
-  background-color: #1DA1F2;
-  color: white;
-}
-.btn-twitter:hover{
-  background-color: #1DA1F2;
-  color: white;
-  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
-}

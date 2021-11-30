@@ -1,6 +1,6 @@
 [
     {
-        "image": "",
+        "image": "https://i.ibb.co/K9pVCsB/ranga-store.png",
         "name": "Ranga Store",
         "start": "Aug 2021",
         "end": "Aug 2021",
@@ -10,7 +10,7 @@
         "github": "https://github.com/marjanamahii/ranga-store"
     },
     {
-        "image": "",
+        "image": "https://i.ibb.co/CHGB51b/book-archive.png",
         "name": "Book Archive",
         "start": "Sep 2021",
         "end": "Sep 2021",
@@ -20,7 +20,82 @@
         "github": "https://github.com/marjanamahii/book-archive"
     },
     {
-        "image": "",
+        "image": "https://i.ibb.co/qW3dNz8/lady-bug-jewellery.png",
+        "name": "Lady Bug Jewellery",
+        "start": "Nov 2021",
+        "end": "Nov 2021",
+        "details": "MERN stack web app and an implementation of admin management page.Implemented two authentication systems like email-password and google sign-in.Registration system for new user.Implement user dashboard and review system.",
+        "technology": "React,Axios,material-ui, react-dom,react-hook-form,react-router-dom,firebase.",
+        "live": "https://lady-bug-jewellery-website.web.app/",
+        "github": "https://github.com/marjanamahii/niche-website-client-side",
+        "server": "https://github.com/marjanamahii/niche-website-server-side"
+    },
+    {
+        "image": "https://i.ibb.co/hK2T7rd/mac-book-pro.png",
+        "name": "Interactive-mac-book-pro",
+        "start": "Aug 2021",
+        "end": "Aug 2021",
+        "details": "Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports Magic Keyboard-US English",
+        "technology": "Javascript,Html,CSS,Bootstrap,Netlify.",
+        "live": "https://mac-book-pro-marjanamahii.netlify.app/",
+        "github": "https://github.com/marjanamahii/interactive-mac-book-pro"
+    },
+    {
+        "image": "https://i.ibb.co/1bMq8cN/honda-cbr.png",
+        "name": "Honda CBR",
+        "start": "Jul 2021",
+        "end": "Jul 2021",
+        "details": "If you’ve got a soft spot for sportbike design and Grand Prix stylings,then the 2021 Honda CBR300R is your sweet spot between form and function. It’s narrow, light, and a total blast to ride around town and on twisty back roads.",
+        "technology": "Javascript,Html,CSS,Bootstrap,Netlify.",
+        "live": "https://honda-cbr-babbage-b3f1ba.netlify.app/",
+        "github": "https://github.com/marjanamahii/honda-cbr"
+    },
+    {
+        "image": "https://i.ibb.co/qW3dNz8/lady-bug-jewellery.png",
+        "name": "Lady Bug Jewellery",
+        "start": "Nov 2021",
+        "end": "Nov 2021",
+        "details": "MERN stack web app and an implementation of admin management page.Implemented two authentication systems like email-password and google sign-in.Registration system for new user.Implement user dashboard and review system.",
+        "technology": "React,Axios,material-ui, react-dom,react-hook-form,react-router-dom,firebase.",
+        "live": "https://lady-bug-jewellery-website.web.app/",
+        "github": "https://github.com/marjanamahii/niche-website-client-side",
+        "server": "https://github.com/marjanamahii/niche-website-server-side"
+    },
+    {
+        "image": "https://i.ibb.co/qW3dNz8/lady-bug-jewellery.png",
+        "name": "Lady Bug Jewellery",
+        "start": "Nov 2021",
+        "end": "Nov 2021",
+        "details": "MERN stack web app and an implementation of admin management page.Implemented two authentication systems like email-password and google sign-in.Registration system for new user.Implement user dashboard and review system.",
+        "technology": "React,Axios,material-ui, react-dom,react-hook-form,react-router-dom,firebase.",
+        "live": "https://lady-bug-jewellery-website.web.app/",
+        "github": "https://github.com/marjanamahii/niche-website-client-side",
+        "server": "https://github.com/marjanamahii/niche-website-server-side"
+    },
+    {
+        "image": "https://i.ibb.co/qW3dNz8/lady-bug-jewellery.png",
+        "name": "Lady Bug Jewellery",
+        "start": "Nov 2021",
+        "end": "Nov 2021",
+        "details": "MERN stack web app and an implementation of admin management page.Implemented two authentication systems like email-password and google sign-in.Registration system for new user.Implement user dashboard and review system.",
+        "technology": "React,Axios,material-ui, react-dom,react-hook-form,react-router-dom,firebase.",
+        "live": "https://lady-bug-jewellery-website.web.app/",
+        "github": "https://github.com/marjanamahii/niche-website-client-side",
+        "server": "https://github.com/marjanamahii/niche-website-server-side"
+    },
+    {
+        "image": "https://i.ibb.co/qW3dNz8/lady-bug-jewellery.png",
+        "name": "Lady Bug Jewellery",
+        "start": "Nov 2021",
+        "end": "Nov 2021",
+        "details": "MERN stack web app and an implementation of admin management page.Implemented two authentication systems like email-password and google sign-in.Registration system for new user.Implement user dashboard and review system.",
+        "technology": "React,Axios,material-ui, react-dom,react-hook-form,react-router-dom,firebase.",
+        "live": "https://lady-bug-jewellery-website.web.app/",
+        "github": "https://github.com/marjanamahii/niche-website-client-side",
+        "server": "https://github.com/marjanamahii/niche-website-server-side"
+    },
+    {
+        "image": "https://i.ibb.co/qW3dNz8/lady-bug-jewellery.png",
         "name": "Lady Bug Jewellery",
         "start": "Nov 2021",
         "end": "Nov 2021",

@@ -13,11 +13,11 @@ const Footer = () => {
 
     return (
         <div className="">
-            <footer className="mt-5 bg-primary">
+            <footer className="mt-5 bg-dark">
                 <div className="footer-top ">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-3 col-sm-6">
+                            <div className="col-lg-4 col-sm-6">
                                 <div className="address">
                                     <h3 className="text-uppercase fw-bold text-white">Marjana Begum</h3>
                                     <p className="mb-4 mt-4">
@@ -33,21 +33,12 @@ const Footer = () => {
                                 </div>
                             </div>
 
-                            <div className="col-lg-2 col-sm-6 footer-menus">
-                                <h4 className="text-uppercase fw-bold">Find Me</h4>
-                                <ul>
-                                    <li><a href="https://www.linkedin.com/in/marjanamahii/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-                                    <li><a href="https://github.com/marjanamahii" target="_blank" rel="noreferrer">GitHub</a></li>
-                                    <li><a href="https://www.facebook.com/marjanamahi.me/" target="_blank" rel="noreferrer">Facebook</a></li>
-                                </ul>
-
-                            </div>
-
-                            <div className="col-lg-3 col-sm-6 footer-menus">
+                            <div className="col-lg-4 col-sm-6 footer-menus">
                                 <h4 className="text-uppercase fw-bold">Site Map</h4>
                                 <ul>
                                     <li><HashLink as={HashLink} to="/projects">My Projects</HashLink></li>
                                     <li><a href={resumeUrl} target="_blank" rel="noreferrer">Online Resume</a></li>
+                                    <li><HashLink as={HashLink} to="/blog">Blog</HashLink></li>
                                     <li><HashLink as={HashLink} to="/about">About Me</HashLink></li>
                                     <li><HashLink as={HashLink} to="/contact">Contact Me</HashLink></li>
                                 </ul>
@@ -70,12 +61,12 @@ const Footer = () => {
                 </div>
 
 
-                <div className="footer-bottom border-top text-center">
+                <div className="footer-bottom border-top bg-primary text-center">
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
                                 <p>
-                                    Designed by <a
+                                    Alright Reserved <a
                                         href="https://github.com/marjanamahii" target="_blank" rel="noreferrer" title="My GitHub Repo">
                                         <span className="text-white cool-link">Marjana Begum</span></a>
                                 </p>

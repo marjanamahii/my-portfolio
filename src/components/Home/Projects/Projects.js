@@ -53,11 +53,7 @@ const Projects = () => {
                             </Link>
                         </div>
                     </div>
-
-
             }
-
-
         </div>
     );
 };

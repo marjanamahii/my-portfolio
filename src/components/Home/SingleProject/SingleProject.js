@@ -10,8 +10,8 @@ const SingleProject = ({ p }) => {
     const techSplit = tech.split(" ");
 
     return (
-        <div>
-            <div class="card mb-5 shadow-sm">
+        <div className="row ">
+            <div class="card mb-5 text-dark border-light shadow-sm">
                 <img src={p.image} class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title fw-bold">{p.name}</h5>

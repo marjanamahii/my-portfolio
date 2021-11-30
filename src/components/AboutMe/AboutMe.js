@@ -1,7 +1,6 @@
 import { faBriefcase, faCode, faLanguage, faUser, faUserGraduate } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import { faFileCode, faIdCard } from '@fortawesome/free-regular-svg-icons';
 import Flip from 'react-reveal/Flip';
@@ -32,7 +31,7 @@ const AboutMe = () => {
                             </div>
                             <div className="col-md-8 ">
                                 <p style={{ textAlign: 'justify' }}>
-                                    I am a running student of Leading University Departement of CSE. Besides my education, I have done several MERN Stack <Link to="/projects">projects</Link> using React, Bootstrap, Tailwind, JavaScript, Node.js, MongoDB etc. As a  Junior Web Developer position my keen attention to detail and designing knowledge will be an added advantage for me to serve any company with a quality service.
+                                    I am a 4th year B.Sc student in Computer Science and Engineering from Leading University. I completed a web development course from Programming Hero team By Jhanar Mahbub Sir. However, I can assure you that I am a quick learner, adaptive as well as an energetic person. I love to learn new things and take challenges.
                                 </p>
                             </div>
                         </div>

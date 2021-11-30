@@ -15,10 +15,10 @@ const MyForm = () => {
         event.preventDefault();
 
         emailjs.sendForm(
-            'service_rwhshis',
-            'template_balengn',
+            'service_wi8sgwq',
+            'template_ciqmng9',
             event.target,
-            'user_MvFO6nIJvOd5zMjvsk7Ma'
+            'user_rR5UNb0nYAyNKkiYRAD6M'
         ).then(result => {
             console.log('contact us result', result);
 
@@ -78,7 +78,7 @@ const MyForm = () => {
                     <label className="text-secondary">Your message</label>
                 </div>
                 <button className="btn btn-dark rounded-pill" type="submit">
-                    <FontAwesomeIcon icon={faPaperPlane} /> Send
+                    <FontAwesomeIcon icon={faPaperPlane} /> Submit
                 </button>
             </form>
 

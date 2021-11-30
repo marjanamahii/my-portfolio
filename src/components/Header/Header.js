@@ -8,7 +8,7 @@ const Header = () => {
     const resumeUrl = 'https://drive.google.com/file/d/1QzpvdP0TMh9kPZpeUhqfyBhltKKeSP9v/view?usp=sharing'
 
     return (
-
+        // #f9004d
         <div>
             <nav class="navbar navbar-dark bg-primary navbar-expand-lg py-4">
                 <div class="container text-uppercase">
@@ -18,7 +18,11 @@ const Header = () => {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav  ms-auto">
-
+                            <li class="nav-item">
+                                <Link to="/home" class="nav-link cool-link" aria-current="page">
+                                    Home
+                                </Link>
+                            </li>
                             <li class="nav-item">
                                 <Link to={'/projects'} className="nav-link cool-link">
                                     My Projects
@@ -29,6 +33,11 @@ const Header = () => {
                                 <a className="nav-link cool-link" rel="noreferrer" href={resumeUrl} target="_blank">Resume</a>
                             </li>
 
+                            <li class="nav-item">
+                                <Link to="/blog" class="nav-link cool-link" aria-current="page">
+                                    Blog
+                                </Link>
+                            </li>
                             <li class="nav-item">
                                 <Link to="/about" class="nav-link cool-link" aria-current="page">
                                     About Me

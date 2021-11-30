@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer';
 import AllProjects from './components/AllProjects/AllProjects';
 import AboutMe from './components/AboutMe/AboutMe';
 import Contact from './components/Contact/Contact';
+import Blog from './components/Blog/Blog';
 
 function App() {
   return (
@@ -23,19 +24,18 @@ function App() {
             <Route exact path="/">
               <Home></Home>
             </Route>
-
             <Route path="/home">
               <Home></Home>
             </Route>
-
             <Route path="/projects">
               <AllProjects></AllProjects>
             </Route>
-
+            <Route path="/blog">
+              <Blog></Blog>
+            </Route>
             <Route path="/about">
               <AboutMe></AboutMe>
             </Route>
-
             <Route path="/contact">
               <Contact></Contact>
             </Route>
@@ -43,7 +43,6 @@ function App() {
               <PageNotFound></PageNotFound>
             </Route>
           </Switch>
-          <Footer></Footer>
         </ScrollToTop>
       </Router>
     </div>
