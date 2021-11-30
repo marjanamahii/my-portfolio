@@ -31,7 +31,13 @@ const AboutMe = () => {
                             </div>
                             <div className="col-md-8 ">
                                 <p style={{ textAlign: 'justify' }}>
-                                    I am a 4th year B.Sc student in Computer Science and Engineering from Leading University. I completed a web development course from Programming Hero team By Jhanar Mahbub Sir. However, I can assure you that I am a quick learner, adaptive as well as an energetic person. I love to learn new things and take challenges.
+                                    I would like to introduce myself to you as I believe I have the skills,willpower, qualifications, and hardworking mind necessary to make a significant contribution to your organization.
+                                </p>
+                                <p style={{ textAlign: 'justify' }}>
+                                    I am a 4th year B.Sc student in Computer Science and Engineering from Leading University. I can assure you that I am a quick learner, adaptive as well as an energetic person. I love to learn new things and take challenges.
+                                </p>
+                                <p style={{ textAlign: 'justify' }}>
+                                    I can assure you that I am a quick learner, adaptive as well as an energetic person. I love to learn new things and take challenges. I believe working in a reputed organization like your one will provide me an excellent opportunity for my career.
                                 </p>
                             </div>
                         </div>
@@ -116,10 +122,6 @@ const AboutMe = () => {
                                         <p className="fw-bold">CSS3</p>
                                     </div>
                                     <div className="col flex-column trans-card pb-3">
-                                        <i className="devicon-sass-original colored display-4"></i>
-                                        <p className="fw-bold">Sass</p>
-                                    </div>
-                                    <div className="col flex-column trans-card pb-3">
                                         <i className="devicon-tailwindcss-plain colored display-4"></i>
                                         <p className="fw-bold">Tailwind CSS</p>
                                     </div>
@@ -170,7 +172,6 @@ const AboutMe = () => {
                                     <li className="mt-2">REST APIs</li>
                                     <li className="mt-2">ES6</li>
                                     <li className="mt-2">Google Analytics</li>
-                                    <li className="mt-2">SEO</li>
                                     <li className="mt-2">Digital Marketing</li>
 
                                 </ul>
