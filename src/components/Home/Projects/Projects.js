@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Loading from '../../Loading/Loading';
 import { Link } from 'react-router-dom';
 import SingleProject from '../SingleProject/SingleProject';
-import Bounce from "react-reveal/Bounce";
-import Fade from 'react-reveal/Fade';
+import LightSpeed from 'react-reveal/LightSpeed';
+import Slide from 'react-reveal/Slide';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -35,14 +35,14 @@ const Projects = () => {
                     :
 
                     <div>
-                        <Bounce bottom cascade>
+                        <LightSpeed bottom cascade>
                             <h4 className="text-uppercase fw-bold pb-3 text-center">My Projects</h4>
-                        </Bounce>
-                        <Fade bottom>
+                        </LightSpeed>
+                        <Slide bottom>
                             {
                                 projects.map(project => <SingleProject p={project}></SingleProject>)
                             }
-                        </Fade>
+                        </Slide>
                         <div className="text-center pb-5">
                             <Link to="/projects">
                                 <button className="btn btn-primary">

@@ -3,8 +3,8 @@ import { faBriefcase, faCloudDownloadAlt, faPaperPlane } from '@fortawesome/free
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import marjanaImg from '../../../images/marjanabegum.png';
-import Flip from 'react-reveal/Flip';
-
+import Jump from 'react-reveal/Jump';
+import Pulse from 'react-reveal/Pulse';
 
 const DeveloperSection = () => {
     return (
@@ -12,11 +12,12 @@ const DeveloperSection = () => {
             <div className="row d-flex align-items-center py-5">
 
                 <div className="col-md-8 ">
-                    <Flip top cascade>
+                    <Jump top cascade>
                         <h2 className="fw-bold text-uppercase">Marjana Begum</h2>
-                    </Flip>
-
-                    <p><FontAwesomeIcon icon={faBriefcase} /> Junior Web Developer</p>
+                    </Jump>
+                    <Pulse>
+                        <p><FontAwesomeIcon icon={faBriefcase} /> Junior Web Developer</p>
+                    </Pulse>
                     <p>
                         <span className="language px-2 py-1 rounded me-2">React</span>
                         <span className="language px-2 py-1 rounded me-2">MongoDB</span>

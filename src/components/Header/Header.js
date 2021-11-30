@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import Flip from 'react-reveal/Flip';
 
 const Header = () => {
 
@@ -12,7 +13,9 @@ const Header = () => {
         <div>
             <nav class="navbar navbar-dark bg-primary navbar-expand-lg py-4">
                 <div class="container text-uppercase">
-                    <Link to="/home" className="navbar-brand fw-bold cool-link">Marjana Begum</Link>
+                    <Flip top>
+                        <Link to="/home" className="navbar-brand fw-bold cool-link">Marjana Begum</Link>
+                    </Flip>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
