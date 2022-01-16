@@ -26,7 +26,7 @@ const DeveloperSection = () => {
                     </p>
 
                     <div>
-                        <a href="https://drive.google.com/file/d/1QzpvdP0TMh9kPZpeUhqfyBhltKKeSP9v/view?usp=sharing" type="button" className="btn btnDwnResume me-2">
+                        <a href="https://drive.google.com/drive/u/0/folders/1ldiIbuGEPeGsAK-BojefOFp6cuFr_v2g" type="button" className="btn btnDwnResume me-2">
                             <FontAwesomeIcon icon={faCloudDownloadAlt} /> Download Resume
                         </a>
                         <Link to='/contact'>
