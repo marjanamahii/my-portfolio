@@ -6,7 +6,7 @@ import Flip from 'react-reveal/Flip';
 const Header = () => {
 
 
-    const resumeUrl = 'https://drive.google.com/file/d/1QzpvdP0TMh9kPZpeUhqfyBhltKKeSP9v/view?usp=sharing'
+    const resumeUrl = 'https://drive.google.com/drive/u/0/folders/1ldiIbuGEPeGsAK-BojefOFp6cuFr_v2g'
 
     return (
         // #f9004d
